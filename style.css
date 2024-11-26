@@ -1,0 +1,82 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 1.5fr; 
+    grid-template-rows: auto; 
+    row-gap: 10px; 
+    column-gap: 10px; 
+}
+
+.grid-item:hover {
+    transform: scale(1.05); 
+}
+.grid-item {
+    background-color: #3498db;
+    color: white;
+    padding: 20px; 
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1 1 auto; 
+    min-width: 200px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    transition: transform 0.3s ease-in-out;
+    border: 2px dotted black;
+    height: auto; 
+}
+
+.grid-item h2, .grid-item h3 {
+    margin: 10px 0;
+}
+
+.grid-item p {
+    line-height: 1.5;
+}
+
+/* Styling for individual items */
+.overview {
+    background-color: #1abc9c;
+}
+
+.prototype {
+    background-color: #e67e22;
+}
+
+.sensors {
+    background-color: #f39c12;
+}
+
+.hardware {
+    background-color: #9b59b6;
+}
+
+.final-prototype {
+    background-color: #2ecc71;
+}
+
+.user-interaction {
+    background-color: #8e44ad;
+}
+
+.safety {
+    background-color: #f1c40f;
+}
+
+.feedback {
+    background-color: #34495e;
+}
+
+.conclusion {
+    background-color: #e74c3c;
+}
+
+.future-improvements {
+    background-color: #16a085;
+}
+
+.video {
+    background-color: #2980b9;
+    flex: 1 1 auto;
+}
